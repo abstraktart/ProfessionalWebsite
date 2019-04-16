@@ -90,7 +90,7 @@ a:hover {
     border: solid 3px black;
     color: black;
     font-size: 25px;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 70px 10px 70px;
     margin: 0 20px 50px 0;
     text-decoration: none;
     box-shadow: 15px 15px 0 #4b6e2e;
@@ -102,7 +102,7 @@ a:hover {
     border: solid 3px black;
     color: black;
     font-size: 25px;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 70px 10px 70px;
     margin: 0 20px 50px 0;
     text-decoration: none;
     box-shadow: 15px 15px 0 black;
@@ -110,7 +110,7 @@ a:hover {
 
 .button:active {
     position: relative;
-    top: 1px;
+    top: 2px;
 }
 .icon {
     padding: 0 20px 0 0;
