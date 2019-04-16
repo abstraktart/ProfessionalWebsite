@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+body {
+    background: #dcffbf;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    display: block;
+    width: 1020px;
+}
+
+#topSection {
+    background: white;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    width: auto;
+}
+
+nav ul {
+    background: url(images/navbg.png);
+    width: 415px;
+    height: 61px;
+    margin: 10px 0 0 0;
+    list-style: none;
+    float: right;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 5px 0 40px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+#logo {
+    height: 98px;
+    width: 328px;
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main {
+    text-align: center;
+
+}
+
+#hero {
+    border: solid 3px black;
+    margin: 40px;
+    box-shadow: 15px 15px 0 black;
+}
+
+#main ul {
+    list-style: none;
+}
+
+#main ul li {
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    background: #a2ff5c;
+    border: solid 3px black;
+    color: black;
+    font-size: 25px;
+    padding: 10px 50px 10px 50px;
+    margin: 0 20px 50px 0;
+    text-decoration: none;
+    box-shadow: 15px 15px 0 #4b6e2e;
+}
+
+.button:hover {
+    display: inline-block;
+    background: #a2ff5c;
+    border: solid 3px black;
+    color: black;
+    font-size: 25px;
+    padding: 10px 50px 10px 50px;
+    margin: 0 20px 50px 0;
+    text-decoration: none;
+    box-shadow: 15px 15px 0 black;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+.icon {
+    padding: 0 20px 0 0;
+    transform: inherit;
+}
+
+footer {
+    background: #b6b3b3;
+}
+
+footer ul {
+    list-style: none;
+    float: right;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    margin: 15px 20px 0 0;
+}
+
+footer p {
+    padding: 20px;
+    font-family: Oswald-Light, Helvetica, sans-serif;
+    float: left;
+}
